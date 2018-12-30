@@ -49,7 +49,7 @@
 
                                   <field name="cash_register_id" string="Cash Register"
                                     attrs="{
-                                  'readonly': [('registered', '=', True)],'required':[('register','=', True)]}"/>
+                                  'readonly': [('registered', '=', True)],'invisible': [('registered', '!=', True)],'required':[('register','=', True)]}"/>
 
 
 
